@@ -1,0 +1,38 @@
+{
+  "name": "travel-tourism-website",
+  "version": "1.0.0",
+  "description": "A modern travel and tourism website with Node.js backend",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "echo 'No build step required for this project'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "travel",
+    "tourism",
+    "website",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Travel & Tourism",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+} 
